@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.0
+google-generativeai>=0.8.0
+aiofiles>=24.0.0
+httpx>=0.23.0
+
+# Chatterbox TTS (já instalado no ambiente chatterbox)
+# torch, torchaudio, librosa, etc.

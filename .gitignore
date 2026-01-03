@@ -1,17 +1,15 @@
-.vscode
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+# Allow example file
+!.env.example
 
-# Pylance
-pyrightconfig.json
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -28,21 +26,17 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+venv/
+.venv/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-syn_out/
-checkpoints/
-.gradio
-
-# Ignore generated sample .wav files
-**/*.wav
+# Output
+output/
+temp/
+*.mp3
+*.mp4
+*.wav
